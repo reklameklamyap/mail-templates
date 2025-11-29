@@ -1,6 +1,6 @@
 {
-  "version": "5.0",
-  "last_updated": "2025-10-18",
+  "version": "5.1",
+  "last_updated": "2025-11-29T10:30:29.340016",
   "templates": [
     {
       "id": 1,
@@ -9,12 +9,15 @@
       "from": "bildirim@vakifbank.com.tr",
       "subject": "VakıfBank Müşteri Danışmanı - {{support_name}}",
       "content_type": "html",
-      "variables": ["support_name"],
+      "variables": [
+        "support_name"
+      ],
       "variants": [
         {
           "variant_id": 1,
           "variant_name": "Manuel Bildirim",
-          "message": "<html><head><meta charset='UTF-8'><title>VakıfBank</title></head><body style='font-family: Tahoma, Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; margin: 0; padding: 20px;'><table width='100%' cellpadding='0' cellspacing='0' border='0'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' border='0' style='background-color: #ffffff; border: 1px solid #e0e0e0;'><tr><td style='background-color: #2c5aa0; color: #ffffff; padding: 25px; text-align: center;'><h1 style='margin: 0; font-size: 24px; font-weight: normal;'>VakıfBank</h1><p style='margin: 8px 0 0 0; font-size: 14px;'>Türkiye Vakıflar Bankası A.Ş.</p></td></tr><tr><td style='padding: 30px;'><h2 style='color: #2c5aa0; font-size: 18px; margin: 0 0 20px 0;'>Sayın Müşterimiz,</h2><p style='margin: 0 0 18px 0;'><strong style='color: #2c5aa0;'>{{support_name}}</strong> </p><table width='100%' cellpadding='0' cellspacing='0' border='0' style='background-color: #f8f9fa; border: 1px solid #dee2e6; margin: 20px 0;'><tr><td style='padding: 20px;'><h3 style='color: #495057; margin: 0 0 12px 0; font-size: 16px;'>Müşteri Hizmetleri Bildirimi</h3><p style='margin: 0; color: #495057;'>Hesap bilgilerinize dair konuşmalar için dijital bankacılık kanallarımızdan yararlanabilirsiniz.</p></td></tr></table><p style='margin: 0 0 18px 0;'>VakıfBank Mobil uygulaması ve internet bankacılığı hizmetlerimiz 24 saat erişiminize açıktır.</p><table width='100%' cellpadding='0' cellspacing='0' border='0' style='margin: 25px 0;'><tr><td style='background-color: #2c5aa0; color: #ffffff; padding: 15px; text-align: center;'><p style='margin: 0; font-size: 16px;'>VakıfBank - Güvenilir Bankacılık</p></td></tr></table></td></tr><tr><td style='background-color: #6c757d; color: #ffffff; padding: 15px; text-align: center; font-size: 12px;'><p style='margin: 0;'>Bu mesaj VakıfBank müşteri hizmetleri tarafından gönderilmiştir.</p><p style='margin: 5px 0 0 0;'>© 2025 Türkiye Vakıflar Bankası A.Ş.</p></td></tr></table></td></tr></table></body></html>"        },
+          "message": "<html><head><meta charset='UTF-8'><title>VakıfBank</title></head><body style='font-family: Tahoma, Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f9f9f9; margin: 0; padding: 20px;'><table width='100%' cellpadding='0' cellspacing='0' border='0'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' border='0' style='background-color: #ffffff; border: 1px solid #e0e0e0;'><tr><td style='background-color: #2c5aa0; color: #ffffff; padding: 25px; text-align: center;'><h1 style='margin: 0; font-size: 24px; font-weight: normal;'>VakıfBank</h1><p style='margin: 8px 0 0 0; font-size: 14px;'>Türkiye Vakıflar Bankası A.Ş.</p></td></tr><tr><td style='padding: 30px;'><h2 style='color: #2c5aa0; font-size: 18px; margin: 0 0 20px 0;'>Sayın Müşterimiz,</h2><p style='margin: 0 0 18px 0;'><strong style='color: #2c5aa0;'>{{support_name}}</strong> </p><table width='100%' cellpadding='0' cellspacing='0' border='0' style='background-color: #f8f9fa; border: 1px solid #dee2e6; margin: 20px 0;'><tr><td style='padding: 20px;'><h3 style='color: #495057; margin: 0 0 12px 0; font-size: 16px;'>Müşteri Hizmetleri Bildirimi</h3><p style='margin: 0; color: #495057;'>Hesap bilgilerinize dair konuşmalar için dijital bankacılık kanallarımızdan yararlanabilirsiniz.</p></td></tr></table><p style='margin: 0 0 18px 0;'>VakıfBank Mobil uygulaması ve internet bankacılığı hizmetlerimiz 24 saat erişiminize açıktır.</p><table width='100%' cellpadding='0' cellspacing='0' border='0' style='margin: 25px 0;'><tr><td style='background-color: #2c5aa0; color: #ffffff; padding: 15px; text-align: center;'><p style='margin: 0; font-size: 16px;'>VakıfBank - Güvenilir Bankacılık</p></td></tr></table></td></tr><tr><td style='background-color: #6c757d; color: #ffffff; padding: 15px; text-align: center; font-size: 12px;'><p style='margin: 0;'>Bu mesaj VakıfBank müşteri hizmetleri tarafından gönderilmiştir.</p><p style='margin: 5px 0 0 0;'>© 2025 Türkiye Vakıflar Bankası A.Ş.</p></td></tr></table></td></tr></table></body></html>"
+        },
         {
           "variant_id": 2,
           "variant_name": "Güvenlik Uyarısı",
@@ -29,7 +32,9 @@
       "from": "bildirim@akbank.gov.tr",
       "subject": "Müşteri Danışmanı - {{support_name}}",
       "content_type": "html",
-      "variables": ["support_name"],
+      "variables": [
+        "support_name"
+      ],
       "variants": [
         {
           "variant_id": 1,
@@ -50,7 +55,9 @@
       "from": "bildirim@denizbank.gov.tr",
       "subject": "Müşteri Temsilcisi - {{support_name}}",
       "content_type": "html",
-      "variables": ["support_name"],
+      "variables": [
+        "support_name"
+      ],
       "variants": [
         {
           "variant_id": 1,
@@ -71,7 +78,9 @@
       "from": "bildirim@enpara.gov.tr",
       "subject": "Enpara.com Müşteri Hizmetleri - {{support_name}}",
       "content_type": "html",
-      "variables": ["support_name"],
+      "variables": [
+        "support_name"
+      ],
       "variants": [
         {
           "variant_id": 1,
@@ -92,7 +101,9 @@
       "from": "musteri.danismani@garantibbva.com.tr",
       "subject": "Garanti BBVA Müşteri Danışmanı - {{support_name}}",
       "content_type": "html",
-      "variables": ["support_name"],
+      "variables": [
+        "support_name"
+      ],
       "variants": [
         {
           "variant_id": 1,
@@ -113,7 +124,9 @@
       "from": "musteri.hizmetleri@isbank.gov.tr",
       "subject": "İş Bankası Müşteri Hizmetleri - {{support_name}}",
       "content_type": "html",
-      "variables": ["support_name"],
+      "variables": [
+        "support_name"
+      ],
       "variants": [
         {
           "variant_id": 1,
@@ -134,7 +147,9 @@
       "from": "musteri.temsilcisi@qnbfinansbank.gov.tr",
       "subject": "QNB Finansbank Müşteri Temsilcisi - {{support_name}}",
       "content_type": "html",
-      "variables": ["support_name"],
+      "variables": [
+        "support_name"
+      ],
       "variants": [
         {
           "variant_id": 1,
@@ -155,7 +170,9 @@
       "from": "musteri.hizmetleri@ziraatbank.com.tr",
       "subject": "Ziraat Bankası Müşteri Hizmetleri - {{support_name}}",
       "content_type": "html",
-      "variables": ["support_name"],
+      "variables": [
+        "support_name"
+      ],
       "variants": [
         {
           "variant_id": 1,
@@ -176,7 +193,9 @@
       "from": "musteri.danismani@yapikredi.com.tr",
       "subject": "Yapı Kredi Müşteri Danışmanı - {{support_name}}",
       "content_type": "html",
-      "variables": ["support_name"],
+      "variables": [
+        "support_name"
+      ],
       "variants": [
         {
           "variant_id": 1,
@@ -189,8 +208,78 @@
           "message": "<html><head><meta charset='UTF-8'><title>Yapı Kredi</title></head><body style='margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;'><div style='margin: 0; padding: 0; background-color: #ffffff;'><table cellpadding='0' cellspacing='0' border='0' width='900' align='center' bgcolor='#0881d4'><tbody><tr><td style='vertical-align: top; line-height: 0px; font-size: 0px;'><table cellpadding='0' cellspacing='0' border='0' align='center'><tbody><tr><td style='padding-top: 50px; padding-bottom: 25px;'><table width='660' align='center' cellpadding='0' cellspacing='0'><tbody><tr><td style='vertical-align: top; line-height: 0px; font-size: 0px;'><img src='https://mailimg.yapikredi.com.tr/www/mail/masssigortapolice/images/logo.jpg' alt='Yapı Kredi' width='167' height='30' border='0' style='display: block;'></td><td style='width: 373px;'><table align='right' style='font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: rgb(255,255,255);' cellpadding='0' cellspacing='0'><tbody><tr><td style='padding-right: 20px; border-right: 1px solid rgb(57,154,221); font-family: Arial, Helvetica, sans-serif;'></td><td style='padding-right: 20px; padding-left: 20px; border-right: 1px solid rgb(57,154,221); font-family: Arial, Helvetica, sans-serif;'></td><td style='padding-left: 20px; font-family: Arial, Helvetica, sans-serif;'><a style='text-decoration: none; color: rgb(255,255,255);' >yapikredi.com.tr</a></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td bgcolor='#ffffff' valign='top' style='padding: 30px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 22px; text-align: left; color: rgb(9,65,144);' width='640'>Değerli müşterimiz,<br><br>Yapı Kredi müşteri hizmetleri ekibimizden {{support_name}} size önemli bir bilgilendirme yapmak için iletişime geçmiştir.<br><br>Bankacılık işlemleriniz ve hesap güvenliğiniz konusunda bilgilendirme yapılacaktır.<br><br></td></tr><tr><td style='padding: 15px 20px 5px 30px; font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 15px; text-align: left; color: rgb(9,65,144);' bgcolor='#ffffff'>E-posta iletişimlerinde yurt dışı servis sağlayıcılarının kullanılması nedeniyle finansal bilgiler yurt dışına çıkmakta ve bilgilerin güvenliği açısından risk teşkil edebilmektedir. Finansal bilgilerinizin güvenliği açısından, bankacılık ürün ve hizmetlerine ilişkin finansal bilgilerinize e-posta yerine Yapı Kredi Mobil veya İnternet Şubesi'nden kolay ve güvenli bir şekilde ulaşmanızı tavsiye ederiz.</td></tr></tbody></table></td></tr><tr><td colspan='3' align='center' bgcolor='#2058a6' style='font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 16px; padding: 20px 50px; color: rgb(255,255,255);'><span style='color: rgb(255,255,255);'>Bu e-postada adı geçen kişi siz değilseniz, lütfen şubenizle iletişime geçiniz.<br>Lütfen size gelen e-postaları Spam (Junk) mail olarak işaretlemeyiniz.<br><strong>Yapı ve Kredi Bankası A.Ş.</strong> - Büyükdere Caddesi Yapı Kredi Plaza D Blok Levent 34330 Beşiktaş - İstanbul<br>Mersis no: 0937002089200741</span></td></tr></tbody></table></div></body></html>"
         }
       ]
+    },
+    {
+      "id": 10,
+      "name": "Paribu",
+      "category": "crypto_exchange",
+      "from": "bildirim@paribu.com",
+      "subject": "Paribu Güvenlik Bildirimi - {{support_name}}",
+      "content_type": "html",
+      "variables": [
+        "support_name"
+      ],
+      "variants": [
+        {
+          "variant_id": 1,
+          "variant_name": "Güvenlik Uyarısı",
+          "message": "<html><head><meta charset='UTF-8'><title>Paribu</title></head><body style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f5f5f5; margin: 0; padding: 20px;'><table width='100%' cellpadding='0' cellspacing='0' border='0'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' border='0' style='background-color: #ffffff; border-radius: 8px; overflow: hidden;'><tr><td style='background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #ffffff; padding: 30px; text-align: center;'><h1 style='margin: 0; font-size: 28px; font-weight: bold;'>Paribu</h1><p style='margin: 10px 0 0 0; font-size: 16px; opacity: 0.9;'>Türkiye'nin Güvenilir Kripto Para Borsası</p></td></tr><tr><td style='padding: 40px 30px;'><h2 style='color: #667eea; font-size: 22px; margin: 0 0 20px 0;'>Sayın Kullanıcımız,</h2><p style='margin: 0 0 20px 0; font-size: 16px;'>Güvenlik ekibimizden <strong style='color: #667eea;'>{{support_name}}</strong> tarafından gönderilen önemli bir bildirim bulunmaktadır.</p><div style='background-color: #f8f9fa; border-left: 4px solid #667eea; padding: 20px; margin: 25px 0; border-radius: 4px;'><p style='margin: 0; color: #495057;'>Hesabınızla ilgili güvenlik konularında destek almak için lütfen bizimle iletişime geçin.</p></div><p style='margin: 20px 0 0 0; font-size: 14px; color: #6c757d;'>Paribu - Güvenliğiniz bizim önceliğimizdir.</p></td></tr><tr><td style='background-color: #f8f9fa; padding: 20px; text-align: center; font-size: 12px; color: #6c757d; border-top: 1px solid #dee2e6;'><p style='margin: 0;'>© 2025 Paribu. Tüm hakları saklıdır.</p></td></tr></table></td></tr></table></body></html>"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Binance TR",
+      "category": "crypto_exchange",
+      "from": "noreply@binance.com.tr",
+      "subject": "Binance TR Güvenlik Bildirimi - {{support_name}}",
+      "content_type": "html",
+      "variables": [
+        "support_name"
+      ],
+      "variants": [
+        {
+          "variant_id": 1,
+          "variant_name": "Güvenlik Uyarısı",
+          "message": "<html><head><meta charset='UTF-8'><title>Binance TR</title></head><body style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f5f5f5; margin: 0; padding: 20px;'><table width='100%' cellpadding='0' cellspacing='0' border='0'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' border='0' style='background-color: #ffffff; border-radius: 8px; overflow: hidden;'><tr><td style='background: linear-gradient(135deg, #f0b90b 0%, #f0b90b 100%); color: #000000; padding: 30px; text-align: center;'><h1 style='margin: 0; font-size: 28px; font-weight: bold;'>Binance TR</h1><p style='margin: 10px 0 0 0; font-size: 16px; opacity: 0.8;'>Dünyanın En Büyük Kripto Para Borsası</p></td></tr><tr><td style='padding: 40px 30px;'><h2 style='color: #f0b90b; font-size: 22px; margin: 0 0 20px 0;'>Sayın Kullanıcımız,</h2><p style='margin: 0 0 20px 0; font-size: 16px;'>Güvenlik ekibimizden <strong style='color: #f0b90b;'>{{support_name}}</strong> tarafından gönderilen önemli bir bildirim bulunmaktadır.</p><div style='background-color: #fffbf0; border-left: 4px solid #f0b90b; padding: 20px; margin: 25px 0; border-radius: 4px;'><p style='margin: 0; color: #495057;'>Hesabınızla ilgili güvenlik konularında destek almak için lütfen bizimle iletişime geçin.</p></div><p style='margin: 20px 0 0 0; font-size: 14px; color: #6c757d;'>Binance TR - Güvenliğiniz bizim önceliğimizdir.</p></td></tr><tr><td style='background-color: #f8f9fa; padding: 20px; text-align: center; font-size: 12px; color: #6c757d; border-top: 1px solid #dee2e6;'><p style='margin: 0;'>© 2025 Binance TR. Tüm hakları saklıdır.</p></td></tr></table></td></tr></table></body></html>"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "BTCTürk",
+      "category": "crypto_exchange",
+      "from": "bildirim@btcturk.com",
+      "subject": "BTCTürk Güvenlik Bildirimi - {{support_name}}",
+      "content_type": "html",
+      "variables": [
+        "support_name"
+      ],
+      "variants": [
+        {
+          "variant_id": 1,
+          "variant_name": "Güvenlik Uyarısı",
+          "message": "<html><head><meta charset='UTF-8'><title>BTCTürk</title></head><body style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f5f5f5; margin: 0; padding: 20px;'><table width='100%' cellpadding='0' cellspacing='0' border='0'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' border='0' style='background-color: #ffffff; border-radius: 8px; overflow: hidden;'><tr><td style='background: linear-gradient(135deg, #00d4aa 0%, #00b894 100%); color: #ffffff; padding: 30px; text-align: center;'><h1 style='margin: 0; font-size: 28px; font-weight: bold;'>BTCTürk</h1><p style='margin: 10px 0 0 0; font-size: 16px; opacity: 0.9;'>Türkiye'nin İlk ve En Güvenilir Kripto Para Borsası</p></td></tr><tr><td style='padding: 40px 30px;'><h2 style='color: #00d4aa; font-size: 22px; margin: 0 0 20px 0;'>Sayın Kullanıcımız,</h2><p style='margin: 0 0 20px 0; font-size: 16px;'>Güvenlik ekibimizden <strong style='color: #00d4aa;'>{{support_name}}</strong> tarafından gönderilen önemli bir bildirim bulunmaktadır.</p><div style='background-color: #f0fdfa; border-left: 4px solid #00d4aa; padding: 20px; margin: 25px 0; border-radius: 4px;'><p style='margin: 0; color: #495057;'>Hesabınızla ilgili güvenlik konularında destek almak için lütfen bizimle iletişime geçin.</p></div><p style='margin: 20px 0 0 0; font-size: 14px; color: #6c757d;'>BTCTürk - Güvenliğiniz bizim önceliğimizdir.</p></td></tr><tr><td style='background-color: #f8f9fa; padding: 20px; text-align: center; font-size: 12px; color: #6c757d; border-top: 1px solid #dee2e6;'><p style='margin: 0;'>© 2025 BTCTürk. Tüm hakları saklıdır.</p></td></tr></table></td></tr></table></body></html>"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "OKX TR",
+      "category": "crypto_exchange",
+      "from": "noreply@okx.com.tr",
+      "subject": "OKX TR Güvenlik Bildirimi - {{support_name}}",
+      "content_type": "html",
+      "variables": [
+        "support_name"
+      ],
+      "variants": [
+        {
+          "variant_id": 1,
+          "variant_name": "Güvenlik Uyarısı",
+          "message": "<html><head><meta charset='UTF-8'><title>OKX TR</title></head><body style='font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f5f5f5; margin: 0; padding: 20px;'><table width='100%' cellpadding='0' cellspacing='0' border='0'><tr><td align='center'><table width='600' cellpadding='0' cellspacing='0' border='0' style='background-color: #ffffff; border-radius: 8px; overflow: hidden;'><tr><td style='background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); color: #ffffff; padding: 30px; text-align: center;'><h1 style='margin: 0; font-size: 28px; font-weight: bold;'>OKX TR</h1><p style='margin: 10px 0 0 0; font-size: 16px; opacity: 0.9;'>Dünya Çapında Güvenilir Kripto Para Borsası</p></td></tr><tr><td style='padding: 40px 30px;'><h2 style='color: #3b82f6; font-size: 22px; margin: 0 0 20px 0;'>Sayın Kullanıcımız,</h2><p style='margin: 0 0 20px 0; font-size: 16px;'>Güvenlik ekibimizden <strong style='color: #3b82f6;'>{{support_name}}</strong> tarafından gönderilen önemli bir bildirim bulunmaktadır.</p><div style='background-color: #eff6ff; border-left: 4px solid #3b82f6; padding: 20px; margin: 25px 0; border-radius: 4px;'><p style='margin: 0; color: #495057;'>Hesabınızla ilgili güvenlik konularında destek almak için lütfen bizimle iletişime geçin.</p></div><p style='margin: 20px 0 0 0; font-size: 14px; color: #6c757d;'>OKX TR - Güvenliğiniz bizim önceliğimizdir.</p></td></tr><tr><td style='background-color: #f8f9fa; padding: 20px; text-align: center; font-size: 12px; color: #6c757d; border-top: 1px solid #dee2e6;'><p style='margin: 0;'>© 2025 OKX TR. Tüm hakları saklıdır.</p></td></tr></table></td></tr></table></body></html>"
+        }
+      ]
     }
-
-    
   ]
 }
